@@ -23,8 +23,4 @@ public class StartNightTrigger : MonoBehaviour
     {
        SceneManager.LoadScene(0);
     }
-    public void ClickStartNight()
-    {
-        
-    }
 }
