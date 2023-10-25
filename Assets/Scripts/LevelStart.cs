@@ -25,9 +25,9 @@ public class LevelStart : MonoBehaviour
     public void  OnTriggerEnter(Collider other)
     {
         StartLevel();
-        Player.transform.position = new Vector3(4, 2.65f, -12);
+        Player.transform.position = new Vector3(4, 3, -13);
         LapTopTrue.SetActive(true);
-        SceneManager.LoadScene(0);
+
     }
     private void StartLevel()
     {
